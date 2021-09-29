@@ -1,3 +1,3 @@
-# ajax-project
+# Code-Signal Problems
 
-A dynamic HTML, CSS, and JavaScript solo project.
+JavaScript Algorithm challenges from codeSignal
