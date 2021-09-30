@@ -1,4 +1,4 @@
-/* exported adjacentElementsProduct */
+/* exported adjacentElementsProduct adjacentElementsProduct2 */
 
 function adjacentElementsProduct(inputArray) {
   let highestProduct = 0;
@@ -12,4 +12,8 @@ function adjacentElementsProduct(inputArray) {
     }
   }
   return highestProduct;
+}
+
+function adjacentElementsProduct2(arr) {
+  return Math.max(...arr.slice(1).map((x, i) => [x * arr[i]]));
 }
