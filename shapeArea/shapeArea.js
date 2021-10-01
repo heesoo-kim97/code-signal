@@ -1,15 +1,10 @@
 /* exported shapeArea */
 
 function shapeArea(n) {
-  let newNumber = 0;
-  for (let i = 0; i < n; i++) {
-    let updatedNumber = 1;
-    if (i === 0) {
-      newNumber = updatedNumber;
-    } else {
-      newNumber = (n - 1) * 4 + updatedNumber;
-      updatedNumber = newNumber;
-    }
+  let area = 1;
+
+  for (let i = 1; i < n; i++) {
+    area += 4 * i;
   }
-  return newNumber;
+  return area;
 }
