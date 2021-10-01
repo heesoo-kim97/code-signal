@@ -1,4 +1,4 @@
-/* exported shapeArea */
+/* exported shapeArea shapeArea2 */
 
 function shapeArea(n) {
   let area = 1;
@@ -7,4 +7,9 @@ function shapeArea(n) {
     area += 4 * i;
   }
   return area;
+}
+
+// another method using Math.pow
+function shapeArea2(n) {
+  return Math.pow(n, 2) + Math.pow(n - 1, 2);
 }
