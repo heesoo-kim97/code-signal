@@ -1,4 +1,6 @@
-/* exported makeArrayConsecutive2 */
+/* exported makeArrayConsecutive2
+            secondWay
+            thirdWay */
 
 function makeArrayConsecutive2(statues) {
   let statuesNeeded = 0;
@@ -14,4 +16,24 @@ function makeArrayConsecutive2(statues) {
     }
   }
   return statuesNeeded;
+}
+
+function secondWay(statues) {
+  return Math.max(...statues) - Math.min(...statues) + 1 - statues.length;
+}
+
+function thirdWay(statues) {
+  let max = statues[0];
+  let min = statues[0];
+  let i = 0;
+  while (i < statues.length) {
+    if (statues[i] > max) {
+      max = statues[i];
+    }
+    if (statues[i] < min) {
+      min = statues[i];
+    }
+    i++;
+  }
+  return max - min + 1 - statues.length;
 }
