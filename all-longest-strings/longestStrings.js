@@ -1,4 +1,4 @@
-/* exported allLongestStrings */
+/* exported allLongestStrings allLongestStrings2 */
 
 const test = ['aba',
   'aa',
@@ -20,3 +20,11 @@ function allLongestStrings(inputArray) {
 
 // eslint-disable-next-line no-console
 console.log('final result: ', allLongestStrings(test));
+
+function allLongestStrings2(inputArray) {
+  const longestStringLength = Math.max(...inputArray.map(s => s.length));
+  return inputArray.filter(s => s.length === longestStringLength);
+}
+
+// eslint-disable-next-line no-console
+console.log('final result: ', allLongestStrings2(test));
