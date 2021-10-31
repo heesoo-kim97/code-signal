@@ -2,3 +2,12 @@ h1 {
   margin: 1;
   font: italic small-caps bold 30px Georgia, serif;
 }
+
+p {
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  margin: auto;
+}
