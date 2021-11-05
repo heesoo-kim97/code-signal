@@ -12,3 +12,5 @@ function centuryFromYear(year) {
 function centuryFromYear2(year) {
   return Math.ceil(year / 100);
 }
+
+// Figuring out the century that particular year is in
