@@ -14,3 +14,4 @@ function centuryFromYear2(year) {
 }
 
 // Figuring out the century that particular year is in
+// use remainder
