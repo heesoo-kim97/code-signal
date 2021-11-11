@@ -28,3 +28,5 @@ function matrixElementsSum2(matrix) {
   }
   return r;
 }
+
+// matrix to check sum of elements
