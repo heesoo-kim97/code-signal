@@ -27,4 +27,4 @@ function commonCharcterCount2(s1, s2) {
 }
 
 // compare two strings and account how many values of string are common between the two strings
-// common characters
+// common characters from the two parameter
