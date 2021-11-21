@@ -5,3 +5,5 @@ function addTen(int) {
   add = int + 10;
   return add;
 }
+
+// adding ten to integer paramter
