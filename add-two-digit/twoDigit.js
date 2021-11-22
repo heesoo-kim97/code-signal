@@ -9,3 +9,5 @@ function addTwoDigits(n) {
 function addTwoDigits2(n) {
   return n % 10 + Math.floor(n / 10);
 }
+
+// adding two digits to the n parameter
