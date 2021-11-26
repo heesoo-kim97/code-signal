@@ -22,3 +22,5 @@ function largestNumber3(n) {
   }
   return parseInt(large);
 }
+
+// finding the largest number in given input
