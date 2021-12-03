@@ -6,3 +6,4 @@ function add(param1, param2) {
 }
 
 // adding two parameters
+// second comment
