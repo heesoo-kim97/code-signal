@@ -30,3 +30,4 @@ function matrixElementsSum2(matrix) {
 }
 
 // matrix to check sum of elements
+// two different way to solve
